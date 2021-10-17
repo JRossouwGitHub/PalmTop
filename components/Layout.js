@@ -1,5 +1,6 @@
+import styles from '../styles/Layout.module.css'
 import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
+import Meta from '../components/Meta'
 import ScrollToTop from './ScrollToTop'
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
@@ -7,14 +8,14 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 const Layout = (props) => {
     return (
         <>
+            <Meta />
             <NavBar />
             <ScrollToTop {...props}>
-                <Fab color="secondary" size="small" aria-label="scroll back to top">
-                    <KeyboardArrowUpIcon />
+                <Fab className={styles.stt} color="inherit" size="large" aria-label="scroll back to top">
+                    <KeyboardArrowUpIcon fontSize='large' />
                 </Fab>
             </ScrollToTop>
             <main>{ props.children }</main>
-            <Footer />
         </>
     )
 }

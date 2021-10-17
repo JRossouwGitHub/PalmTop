@@ -1,0 +1,30 @@
+.navbar{
+    background-color: white;
+    color: var(--primary);
+    flex: 0 1 auto;
+}
+
+.link{
+    background-color: none;
+    color: var(--primary);
+    width: 50%;
+}
+
+.linkM{
+    background-color: none;
+    color: var(--primary);
+}
+
+.button{
+    font-size: large;
+}
+
+.button:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+.logo{
+    margin: 0 auto;
+    padding: 5px;
+}

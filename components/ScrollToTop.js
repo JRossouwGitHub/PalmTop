@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
-
 import Zoom from '@mui/material/Zoom';
 
 const ScrollToTop = (props) => {

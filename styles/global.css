@@ -1,0 +1,20 @@
+:root {
+    --primary: #7114bc;
+    --secondary: #cc0066;
+    --offWhite: #f5f5f5;
+    --darkBody: #262626;
+    --darkHeader: #262626;
+    --darkFooter: #262626;
+    --shadow: #4d4d4d;
+    --shadow2: #ff41a0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
