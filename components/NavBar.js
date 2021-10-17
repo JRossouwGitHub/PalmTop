@@ -91,7 +91,7 @@ const NavBar = () => {
     return (
         <div>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static" className={styles.navbar}>
+                <AppBar position="static" className={styles.navbar} color='inherit'>
                     <Toolbar id="back-to-top-anchor">
                     <IconButton
                         size="large"
