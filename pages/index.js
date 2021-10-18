@@ -74,7 +74,7 @@ const index = () => {
                                     We can build a website that's right for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -96,7 +96,7 @@ const index = () => {
                                     Let us take care of it for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -118,7 +118,7 @@ const index = () => {
                                     Take a look at our Advertising service!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -140,7 +140,7 @@ const index = () => {
                                     Let us know how we can support your needs!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -156,7 +156,7 @@ const index = () => {
                                     We can build a website that's right for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -186,7 +186,7 @@ const index = () => {
                                     Let us take care of it for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -200,7 +200,7 @@ const index = () => {
                                     Take a look at our Advertising service!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -230,7 +230,7 @@ const index = () => {
                                     Let us know how we can support your needs!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
