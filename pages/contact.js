@@ -26,9 +26,11 @@ const contact = () => {
             <div className={styles.root}>
                 <div className={styles.container}>
                     <h1 className={stylesContact.heading}>Contact Us</h1>
+                    <br />
+                    <br />
                     <Box sx={{ width: '100%' }}>
                         <Grid container className={stylesContact.grid}>
-                            <Grid item lg={6} md={6} sm={12} xs={12} className={stylesContact.item}>
+                            <Grid item lg={5} md={5} sm={12} xs={12} className={stylesContact.item}>
                                 <div>
                                     <h2 className={stylesContact.span}>Details</h2>
                                     <Typography>
@@ -49,8 +51,13 @@ const contact = () => {
                                     {isMobile ? (<><br /><br /></>) : null}
                                 </div>
                             </Grid>
-                            {isMobile ? <hr className={stylesContact.hr} /> : null}
-                            <Grid item lg={6} md={6} sm={12} xs={12} className={stylesContact.item}>
+                            {isMobile ? <hr className={stylesContact.hr} /> : 
+                                <Grid item lg={1} md={1} className={stylesContact.item}>
+                                    <div className={stylesContact.vr}>
+                                    </div>
+                                </Grid>
+                            }
+                            <Grid item lg={5} md={5} sm={12} xs={12} className={stylesContact.item}>
                                 <div className={stylesContact.formDiv}>
                                     <h2 className={stylesContact.span}>Or Send Us A Message</h2>
                                     <form

@@ -59,7 +59,7 @@ const index = () => {
                 {isMobile ? (<>
                     <Box sx={{ width: '100%' }}>
                         <Grid container className={stylesIndex.grid}>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Image
                                     src={WebDesignImg}
                                     alt="Web Design Img"
@@ -67,7 +67,7 @@ const index = () => {
                                     height={213}
                                     />
                             </Grid>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Typography className={stylesIndex.text} variant='h5'>
                                     Want a modern, responsive website?
                                     <br />
@@ -81,7 +81,7 @@ const index = () => {
                         </Grid>
                         <hr className={stylesIndex.hr} />
                         <Grid container spacing={0}>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Image
                                     src={HostingImg}
                                     alt="Hosting Img"
@@ -89,7 +89,7 @@ const index = () => {
                                     height={213}
                                     />
                             </Grid>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Typography className={stylesIndex.text} variant='h5'>
                                     Want hands free host management?
                                     <br />
@@ -103,7 +103,7 @@ const index = () => {
                         </Grid>
                         <hr className={stylesIndex.hr} />
                         <Grid container className={stylesIndex.grid}>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Image
                                     src={MarketingImg}
                                     alt="Marketing Img"
@@ -111,7 +111,7 @@ const index = () => {
                                     height={213}
                                     />
                             </Grid>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Typography className={stylesIndex.text} variant='h5'>
                                     Want to get your name out there?
                                     <br />
@@ -125,7 +125,7 @@ const index = () => {
                         </Grid>
                         <hr className={stylesIndex.hr} />
                         <Grid container spacing={0}>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Image
                                     src={SupportImg}
                                     alt="Support Img"
@@ -133,7 +133,7 @@ const index = () => {
                                     height={213}
                                     />
                             </Grid>
-                            <Grid item sm={12} xs={12} className={stylesIndex.gridItem}>
+                            <Grid item sm={12} xs={12} className={stylesIndex.gridItemM}>
                                 <Typography className={stylesIndex.text} variant='h5'>
                                     Want a support team that cares?
                                     <br />

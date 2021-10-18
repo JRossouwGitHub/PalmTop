@@ -55,3 +55,8 @@
     width: 95%;
     border: 1px solid var(--primary);
 }
+
+.vr{
+    display: block;
+    border: 1px solid var(--primary);
+}
