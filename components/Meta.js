@@ -9,7 +9,7 @@ const Meta = ({title, description}) => {
             <meta name="author" content="Jacques Rossouw | PalmTop" />
             <meta name="description" content={description} />
             <link rel="stylesheet" href="./css/style.css" />
-            <link rel="icon" type="image/png" href="../img/PalmTop Icon.png" />
+            <link rel="shortcut icon" href="../img/PalmTop Icon.png" />
             <title>{title}</title>
         </Head>
     )
