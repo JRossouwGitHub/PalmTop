@@ -100,6 +100,7 @@ const NavBar = () => {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                         onClick={toggleDrawer('left', true)}
+                        className={styles.navbarM}
                     >
                         {isMobile ? (<><MenuRoundedIcon fontSize="large" color="inherit" /></>) : null}
                     </IconButton>
@@ -115,23 +116,23 @@ const NavBar = () => {
                     </Link>
                     {!isMobile ? (<>
                         <Stack spacing={4} direction="row" className={styles.link}>
-                            <Link href="/">
-                                <Button variant='text' color='inherit' className={styles.button}>
+                            <Link href="/" className={styles.button}>
+                                <Button variant='text' color='inherit'>
                                     Home
                                 </Button>
                             </Link>
-                            <Link href="/services">
-                                <Button variant='text' color='inherit' className={styles.button}>
+                            <Link href="/services" className={styles.button}>
+                                <Button variant='text' color='inherit'>
                                     Services
                                 </Button>
                             </Link>
-                            <Link href="/portfolio">
-                                <Button variant='text' color='inherit' className={styles.button}>
+                            <Link href="/portfolio" className={styles.button}>
+                                <Button variant='text' color='inherit'>
                                     Portfolio
                                 </Button>
                             </Link>
-                            <Link href="/contact">
-                                <Button variant='text' color='inherit' className={styles.button}>
+                            <Link href="/contact" className={styles.button}>
+                                <Button variant='text' color='inherit'>
                                     Contact
                                 </Button>
                             </Link>

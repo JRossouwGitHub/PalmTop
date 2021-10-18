@@ -4,6 +4,11 @@
     flex: 0 1 auto;
 }
 
+.navbarM{
+    background-color: white;
+    color: var(--primary);
+}
+
 .link{
     background-color: none;
     color: var(--primary);
