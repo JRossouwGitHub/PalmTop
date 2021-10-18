@@ -1,0 +1,77 @@
+.heading{
+    color: var(--primary);
+    text-align: center;
+}
+
+.span{
+    color: var(--primary);
+}
+
+.button{
+    display: block;
+    margin: 15px auto;
+    color: white;
+    background-color: var(--primary);
+}
+
+.button:hover{
+    display: block;
+    margin: 15px auto;
+    color: white;
+    background-color: var(--primary);
+}
+
+.card{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid var(--primary);
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px var(--primary);
+    width: 80%;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 30px var(--shadow2);
+}
+
+.icon{
+    display: block;
+    margin: 0px auto;
+    margin-top: -30px;
+    border: 2px solid var(--primary);
+    background-color: white;
+    border-radius: 30px;
+    width: max-content;
+    padding: 2%;
+}
+
+.title{
+    color: var(--secondary);
+}
+
+.item h4, .itemE h4{
+    color: var(--primary);
+}
+
+.desc{
+    margin: 3%;
+    text-align: left;
+    height: 200px;
+    overflow: hidden;
+}
+
+.desc2{
+    margin: 3%;
+    text-align: left;
+    height: 200px;
+    overflow: hidden;
+}
+
+.descE{
+    margin: 3%;
+    text-align: left;
+    height: max-content;
+    overflow: hidden;
+}
