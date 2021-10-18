@@ -2,6 +2,7 @@ import styles from '../styles/Layout.module.css'
 import stylesIndex from '../styles/Index.module.css'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 import Footer from '../components/Footer'
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -14,7 +15,40 @@ import HostingImg from '../img/hosting.jpg'
 import MarketingImg from '../img/marketing.jpg'
 import SupportImg from '../img/support.jpg'
 
+const useStyles = makeStyles({
+    button: {
+      '&:hover': {
+            backgroundColor: '#7114bc',
+            color: 'white',
+      },
+      width: '250px',
+      backgroundColor: '#7114bc',
+      color: 'white',
+      borderRadius: '10px',
+      margin: '1%',
+      padding: '15px',
+      border: '2px solid white',
+      fontSize: '18px',
+    },
+    buttonM: {
+        '&:hover': {
+              backgroundColor: '#7114bc',
+              color: 'white',
+        },
+        width: '200px',
+        backgroundColor: '#7114bc',
+        color: 'white',
+        borderRadius: '10px',
+        margin: '1%',
+        padding: '15px',
+        border: '2px solid white',
+        fontSize: 'small',
+      },
+  });
+
 const index = () => {
+    const classes = useStyles();
+    
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -40,7 +74,7 @@ const index = () => {
                                     We can build a website that's right for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaBM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -62,7 +96,7 @@ const index = () => {
                                     Let us take care of it for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaBM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -84,7 +118,7 @@ const index = () => {
                                     Take a look at our Advertising service!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaBM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -106,7 +140,7 @@ const index = () => {
                                     Let us know how we can support your needs!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaBM} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.buttonM} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -122,7 +156,7 @@ const index = () => {
                                     We can build a website that's right for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaB} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -152,7 +186,7 @@ const index = () => {
                                     Let us take care of it for you!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaB} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -166,7 +200,7 @@ const index = () => {
                                     Take a look at our Advertising service!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaB} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>
@@ -196,7 +230,7 @@ const index = () => {
                                     Let us know how we can support your needs!
                                     <br /><br />
                                     <Link href='/services'>
-                                        <Button className={stylesIndex.ctaB} variant='filled' color='inherit'>See More</Button>
+                                        <Button className={classes.button} variant='filled' color='inherit'>See More</Button>
                                     </Link>
                                 </Typography>
                             </Grid>

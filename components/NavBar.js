@@ -6,6 +6,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import { makeStyles } from '@mui/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -25,7 +26,18 @@ import PermPhoneMsgRoundedIcon from '@mui/icons-material/PermPhoneMsgRounded';
 import Footer from '../components/Footer';
 import PalmTopLogo from '../img/palmtopv3.png';
 
+const useStyles = makeStyles({
+    button: {
+      '&:hover': {
+          backgroundColor: '#7114bc',
+          color: 'white',
+      },
+      fontSize: 'large',
+    },
+  });
+
 const NavBar = () => {
+    const classes = useStyles();
     const [state, setState] = React.useState({
         top: false,
         left: false,
@@ -51,33 +63,33 @@ const NavBar = () => {
                 <Link href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <HomeRoundedIcon className={styles.linkM} color="inherit" />
+                            <HomeRoundedIcon className={styles.linkM} color="primary" />
                         </ListItemIcon>
-                        <ListItemText primary="Home" color="inherit" />
+                        <ListItemText primary="Home" color="primary" />
                     </ListItem>
                 </Link>
                 <Link href="/services">
                     <ListItem button>
                         <ListItemIcon>
-                            <BuildRoundedIcon className={styles.linkM} color="inherit" />
+                            <BuildRoundedIcon className={styles.linkM} color="primary" />
                         </ListItemIcon>
-                        <ListItemText primary="Services" />
+                        <ListItemText primary="Services" color="primary" />
                     </ListItem>
                 </Link>
                 <Link href="/portfolio">
                     <ListItem button>
                         <ListItemIcon>
-                            <HomeRepairServiceRoundedIcon className={styles.linkM} color="inherit" />
+                            <HomeRepairServiceRoundedIcon className={styles.linkM} color="primary" />
                         </ListItemIcon>
-                        <ListItemText primary="Portfolio" />
+                        <ListItemText primary="Portfolio" color="primary" />
                     </ListItem>
                 </Link>
                 <Link href="/contact">
                     <ListItem button>
                         <ListItemIcon>
-                            <PermPhoneMsgRoundedIcon className={styles.linkM} color="inherit" />
+                            <PermPhoneMsgRoundedIcon className={styles.linkM} color="primary" />
                         </ListItemIcon>
-                        <ListItemText primary="Contact" />
+                        <ListItemText primary="Contact" color="primary" />
                     </ListItem>
                 </Link>
           </List>
@@ -91,7 +103,7 @@ const NavBar = () => {
     return (
         <div>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static" className={styles.navbar} color='inherit'>
+                <AppBar position="static" color='neutral'>
                     <Toolbar id="back-to-top-anchor">
                     <IconButton
                         size="large"
@@ -100,9 +112,8 @@ const NavBar = () => {
                         aria-label="menu"
                         sx={{ mr: 2 }}
                         onClick={toggleDrawer('left', true)}
-                        className={styles.navbarM}
                     >
-                        {isMobile ? (<><MenuRoundedIcon fontSize="large" color="inherit" /></>) : null}
+                        {isMobile ? (<><MenuRoundedIcon fontSize="large" color="primary" /></>) : null}
                     </IconButton>
                     <Link href="/">
                         <a className={styles.logo}>
@@ -116,23 +127,23 @@ const NavBar = () => {
                     </Link>
                     {!isMobile ? (<>
                         <Stack spacing={4} direction="row" className={styles.link}>
-                            <Link href="/" className={styles.button}>
-                                <Button variant='text' color='inherit'>
+                            <Link href="/">
+                                <Button variant='text' color='primary' className={classes.button}>
                                     Home
                                 </Button>
                             </Link>
-                            <Link href="/services" className={styles.button}>
-                                <Button variant='text' color='inherit'>
+                            <Link href="/services">
+                                <Button variant='text' color='primary' className={classes.button}>
                                     Services
                                 </Button>
                             </Link>
-                            <Link href="/portfolio" className={styles.button}>
-                                <Button variant='text' color='inherit'>
+                            <Link href="/portfolio">
+                                <Button variant='text' color='primary' className={classes.button}>
                                     Portfolio
                                 </Button>
                             </Link>
-                            <Link href="/contact" className={styles.button}>
-                                <Button variant='text' color='inherit'>
+                            <Link href="/contact">
+                                <Button variant='text' color='primary' className={classes.button}>
                                     Contact
                                 </Button>
                             </Link>
