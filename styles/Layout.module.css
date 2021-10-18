@@ -4,6 +4,10 @@
     height: 90vh;
 }
 
+.zindex{
+    z-index: 99;
+}
+
 .stt{
     color: white;
     background-color: black;

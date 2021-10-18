@@ -10,7 +10,7 @@ const Layout = (props) => {
         <>
             <Meta />
             <NavBar />
-            <ScrollToTop {...props} style={{zIndex: '99'}}>
+            <ScrollToTop {...props} className={styles.zindex}>
                 <Fab className={styles.stt} color="inherit" size="large" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon fontSize='large' />
                 </Fab>

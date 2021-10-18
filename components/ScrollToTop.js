@@ -1,3 +1,4 @@
+import styles from '../styles/Layout.module.css'
 import PropTypes from 'prop-types';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
@@ -28,7 +29,7 @@ const ScrollToTop = (props) => {
     };
     return (
         <>
-            <Zoom in={trigger}>
+            <Zoom in={trigger} className={styles.zindex}>
                 <Box
                     onClick={handleClick}
                     role="presentation"
