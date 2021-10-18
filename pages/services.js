@@ -73,7 +73,7 @@ const services = () => {
                                             <p>No matter what the choice is, with our level expertise, we know you'll love the final look and feel of your website!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setWebdesign(!webdesign)}>{webdesign ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setWebdesign(!webdesign)}>{webdesign ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                             <Grid item lg={4} md={4} sm={12} xs={12} className={hosting ? stylesServices.itemE : stylesServices.item}> 
@@ -105,7 +105,7 @@ const services = () => {
                                             <p>Sit back while we take care of all the boring mangement stuff!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setHosting(!hosting)}>{hosting ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setHosting(!hosting)}>{hosting ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                             <Grid item lg={4} md={4} sm={12} xs={12} className={writing ? stylesServices.itemE : stylesServices.item}> 
@@ -137,7 +137,7 @@ const services = () => {
                                             <p>Our top level Content Writer is eager to take on your story!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setWriting(!writing)}>{writing ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setWriting(!writing)}>{writing ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                             <Grid item lg={4} md={4} sm={12} xs={12} className={graphics ? stylesServices.itemE : stylesServices.item}> 
@@ -169,7 +169,7 @@ const services = () => {
                                             <p>Tell us what your ideas are and see them come to life!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setGraphics(!graphics)}>{graphics ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setGraphics(!graphics)}>{graphics ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                             <Grid item lg={4} md={4} sm={12} xs={12} className={marketing ? stylesServices.itemE : stylesServices.item}> 
@@ -198,7 +198,7 @@ const services = () => {
                                             <p>This is a great way to get your business out there, especially if you are a new/small business!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setMarketing(!marketing)}>{marketing ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setMarketing(!marketing)}>{marketing ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                             <Grid item lg={4} md={4} sm={12} xs={12} className={support ? stylesServices.itemE : stylesServices.item}> 
@@ -231,7 +231,7 @@ const services = () => {
                                             <p>Our team is at the ready to Support all your needs!</p>
                                         </div>
                                     </div>
-                                    <Button className={stylesServices.button} onClick={() => setSupport(!support)}>{support ? 'Read Less' : 'Read More'}</Button>
+                                    <button className={stylesServices.button} onClick={() => setSupport(!support)}>{support ? 'Read Less' : 'Read More'}</button>
                                 </div>
                             </Grid>
                         </Grid>
