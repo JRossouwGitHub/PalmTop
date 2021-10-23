@@ -60,3 +60,11 @@
     display: block;
     border: 1px solid var(--primary);
 }
+
+.mobile{
+    display: inline-flex;
+}
+
+.mobile a:link{
+    color: var(--primary);
+}

@@ -36,7 +36,7 @@ const contact = () => {
                                     <Typography>
                                         <span className={stylesContact.span}>Name:</span> Jacques Rossouw
                                         <br />
-                                        <span className={stylesContact.span}>Mobile:</span> 022 306 2988
+                                        <span className={stylesContact.span}>Mobile:</span> {isMobile ? (<div className={stylesContact.mobile}><a href='tel:022-306-2988'>022 306 2988</a></div>) : (<>022 306 2988</>)}
                                         <br />
                                         <br />
                                     </Typography>
