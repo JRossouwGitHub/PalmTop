@@ -8,6 +8,7 @@ import PortfolioCard from '../components/PortfolioCard';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import ElectricAir from '../img/ElectricAir.PNG'
+import Autopoint from '../img/Autopoint.png'
 
 const portfolio = () => {
     const theme = useTheme();
@@ -27,6 +28,9 @@ const portfolio = () => {
                         <Grid container>
                             <Grid item lg={4} md={4} sm={12} xs={12}> 
                                 <PortfolioCard src={ElectricAir} alt={'Electric Air Img'} company={'Electric Air'} link={'https://www.electricair.co.nz'} />
+                            </Grid>
+                            <Grid item lg={4} md={4} sm={12} xs={12}> 
+                                <PortfolioCard src={Autopoint} alt={'Autopoint Hamilton Img'} company={'Autopoint Hamilton'} link={'https://www.autopointnz.com'} />
                             </Grid>
                         </Grid>    
                     </Box>
