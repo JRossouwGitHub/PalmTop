@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/services": "pages/services.js"
+  "/weatherornot/privacypolicy": "pages/weatherornot/privacypolicy.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }
