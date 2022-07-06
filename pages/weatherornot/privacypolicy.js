@@ -18,7 +18,7 @@ const privacypolicy = () => {
                 <div className={styles.container} style={{textAlign: 'center'}}>
                     <h1 className={stylesServices.heading}>Weather Or Not Privacy Policy:</h1>
                     <p style={{marginLeft: '2%', marginRight: '2%'}}>Weather Or Not does not and will not collect any private {"(media/audio/personal)"} information from the use of the application.</p>
-                    <p style={{marginLeft: '2%', marginRight: '2%'}}>Weather Or Not may use app use frequency to send push notifications to your device based on your frequent use times.</p>
+                    <p style={{marginLeft: '2%', marginRight: '2%'}}>Weather Or Not may use "app-use" frequency to send push notifications to your device based on your frequent use times.</p>
                 </div>
                 {isMobile ? null : <Footer />}
             </div>
