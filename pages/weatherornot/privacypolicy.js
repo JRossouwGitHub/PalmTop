@@ -1,10 +1,10 @@
 import * as React from 'react'
-import styles from '../styles/Layout.module.css'
-import stylesServices from '../styles/Services.module.css'
+import styles from '../../styles/Layout.module.css'
+import stylesServices from '../../styles/Services.module.css'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import Footer from '../components/Footer'
-import Meta from '../components/Meta'
+import Footer from '../../components/Footer'
+import Meta from '../../components/Meta'
 
 const privacypolicy = () => {
 
