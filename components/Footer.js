@@ -28,7 +28,6 @@ const Footer = () => {
                 </footer>
                 </>)
             }
-            <script type="text/javascript" src="https://analytics.palmtop.co.nz/js/bundle/analytics.min.1.0.0.js"></script>
         </div>
     )
 }
