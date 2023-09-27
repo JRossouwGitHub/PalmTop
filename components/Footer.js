@@ -12,7 +12,7 @@ const Footer = () => {
             {isMobile ? (<>
                 <footer className={styles.footerM}>
                     <br />
-                    &copy; Copyright 2021, PalmTop.
+                    &copy; Copyright 2023, PalmTop.
                     <br /> <br />
                     <a href="https://www.facebook.com/PalmTop-101941725590593" target="_blank">
                         <FacebookIcon className={styles.icon} fontSize='large' />
@@ -20,7 +20,7 @@ const Footer = () => {
                 </footer>
             </>) : (<>
                 <footer className={styles.footer}>
-                    &copy; Copyright 2021, PalmTop.
+                    &copy; Copyright 2023, PalmTop.
                     <br /> <br />
                     <a href="https://www.facebook.com/PalmTop-101941725590593" target="_blank">
                         <FacebookIcon className={styles.icon} fontSize='large' />
